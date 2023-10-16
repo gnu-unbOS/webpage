@@ -1,0 +1,90 @@
+* {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 10px; /* Gap between the circles */
+    position: relative;
+    margin-top: 200px;
+}
+
+.layerOne {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 70px;
+}
+
+.layerTwo {
+    display: flex;
+    justify-content: center;
+    gap: 360px;
+    margin-top: -10px;
+}
+
+.layerThree {
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    margin-top: -10px;
+}
+
+.layerFour {
+    display: flex;
+    justify-content: center;
+    gap: 430px;
+    margin-top: -40px;
+}
+
+.circlesmall{
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+    background-color: bisque;
+}
+
+.circlemedium{
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+    background-color: bisque;
+}
+
+.circlebig {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+}
+
+
+#downloads{
+
+}
+
+#github{
+
+}
+
+#team{
+
+}
+
+#about{
+
+}
+
+#documentation{
+
+}
+
+#contact{
+
+    
+}
