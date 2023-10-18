@@ -2,6 +2,7 @@
     background-color: black;
     margin: 0;
     padding: 0;
+
 }
 
 .logo {
@@ -24,7 +25,7 @@
 .layerTwo {
     display: flex;
     justify-content: center;
-    gap: 360px;
+    gap: 340px;
     margin-top: -10px;
 }
 
@@ -32,7 +33,7 @@
     display: flex;
     justify-content: center;
     gap: 140px;
-    margin-top: -10px;
+    margin-top: -25px;
 }
 
 .layerFour {
@@ -42,14 +43,14 @@
     margin-top: -40px;
 }
 
-.circlesmall{
+.circlesmall {
     border-radius: 50%;
     height: 110px;
     width: 110px;
     background-color: bisque;
 }
 
-.circlemedium{
+.circlemedium {
     border-radius: 50%;
     height: 140px;
     width: 140px;
@@ -63,28 +64,73 @@
     background-color: bisque;
 }
 
+.connectorLayerOneRight{
+    height: 10px;
+    width: 50px;
+    background-color: aliceblue;
+    rotate: 45deg;
+}
 
-#downloads{
+.lines{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.connectorLayerOneLeft{
+    position: relative;
+    margin-trim: ;
+}
+
+#downloads {
 
 }
 
-#github{
+#github {
 
 }
 
-#team{
+#team {
 
 }
 
-#about{
+#about {
 
 }
 
-#documentation{
+#documentation {
 
 }
 
-#contact{
+#contact {
 
+}
+
+/* Add media queries for responsiveness */
+
+/* For screens smaller than 600px wide */
+@media screen and (max-width: 600px) {
+    .circlesmall {
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        background-color: bisque;
+    }
+    
+    .circlemedium {
+        border-radius: 50%;
+        height: 60px;
+        width: 60px;
+        background-color: bisque;
+    }
+    
+    .circlebig {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        background-color: bisque;
+    }
     
 }
+
+/* Add more media queries for other screen sizes as needed */
